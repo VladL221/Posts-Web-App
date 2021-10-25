@@ -16,6 +16,10 @@ mat-spinner {
 }
 
 .post-image img {
-  width: 100%;
+  width: 50%;
   box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.884);
+}
+
+mat-paginator {
+  margin-top: 1rem;
 }
