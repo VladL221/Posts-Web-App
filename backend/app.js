@@ -7,7 +7,12 @@ const userRoutes = require("./routes/user")
 
 const app = express();
 
-mongoose.connect("mongodb+srv://vlad:2h5GP7kzUjBsro9f@cluster0.cnies.mongodb.net/node-angular?retryWrites=true&w=majority").then(() => {
+mongoose
+.connect(
+  "mongodb+srv://vlad:" +
+  process.env.MONGO_ATLAS_PW +
+  "@cluster0.cnies.mongodb.net/node-angular?retryWrites=true&w=majority")
+  .then(() => {
   console.log("Connected to databasE!");
 }).catch(() => {
   console.log("Connection failed!")

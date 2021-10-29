@@ -10,6 +10,9 @@
 # dependencies
 /node_modules
 
+#nodemon envs
+/nodemon.json
+
 # profiling files
 chrome-profiler-events*.json
 
