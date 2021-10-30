@@ -5,6 +5,7 @@ The application uses Node.JS, MongoDB and angular 12.
 Frameworks that were used are: Express.js, Mongoose.
 For the NPM dependencies: Bcryptjs for the password hashing, jsonwebtoken for Authentication & Authorization for better user experience, Mongoose, mongoose-unique-validator, multer.
 
+@@@@ ALL SECRET URI KEYS, TOKENS, Have been changed before the final commit and were not included in this repositry except the live server which is hosted on the AWS server.
 
 # MeanCourse
 
