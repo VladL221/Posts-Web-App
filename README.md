@@ -1,3 +1,11 @@
+## Information
+Live app: http://nodeangular-env-1.eba-76euismg.eu-central-1.elasticbeanstalk.com/
+A Posts web app for users to create posts and read them, The app was uploaded to AWS Elastic Beanstalk using an Integrated Approach.
+The application uses Node.JS, MongoDB and angular 12.
+Frameworks that were used are: Express.js, Mongoose.
+For the NPM dependencies: Bcryptjs for the password hashing, jsonwebtoken for Authentication & Authorization for better user experience, Mongoose, mongoose-unique-validator, multer.
+
+
 # MeanCourse
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.10.
@@ -25,3 +33,4 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
